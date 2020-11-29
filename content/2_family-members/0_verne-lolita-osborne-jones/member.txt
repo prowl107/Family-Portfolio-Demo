@@ -1,0 +1,108 @@
+Title: Verne Lolita Osborne Jones
+
+----
+
+Born: 1944-09-19
+
+----
+
+Died: 
+
+----
+
+Birthplace: Bridgetown, Barbados
+
+----
+
+Parentstructure:
+
+- 
+  name: Anita Victorine Osborne
+- 
+  name: Eric Craigwell
+
+----
+
+Maritalstatus: notmarried
+
+----
+
+Spouse: Elbert Wadell Jones
+
+----
+
+Childrenstructure:
+
+- 
+  name: Erskine Anthony Osborne
+- 
+  name: Roderick Hilary Jones
+
+----
+
+Grandchildrenstructure:
+
+- 
+  name: Miles Anthony Osborne
+- 
+  name: Chloe Simone Osborne
+
+----
+
+Accomplishments:
+
+- 
+  name: >
+    Graduate of St. Michaels Secondary Girls
+    School
+- 
+  name: Wilton School of Cake Decorating
+- 
+  name: Central Career Institute
+- 
+  name: 'Institute of Business Careers '
+
+----
+
+Occupations:
+
+- 
+  name: Nurse
+- 
+  name: Teacher
+- 
+  name: Interior Decorator
+- 
+  name: Workers Compensation Adjustor
+- 
+  name: Claims Adjuster
+- 
+  name: Liability Case Manger
+- 
+  name: Administrative Assistant
+- 
+  name: Executive Secretary
+
+----
+
+Primaryphoto:
+
+- unnamed.jpg
+
+----
+
+Media:
+
+- image-9-8-20-at-3.53-pm.jpg
+
+----
+
+Children: 
+
+----
+
+Grandchildren: 
+
+----
+
+Text: Test member 2

@@ -1,0 +1,22 @@
+title: Recipes List
+icon: book
+image: false
+options: 
+
+fields: 
+  recipes:
+    headline: Recipes
+    type: structure
+    fields:
+      Name:
+        label: Recipe Name
+        type: text
+      Description:
+        label: Short Description
+        type: textarea
+      File:
+        label: Recipe File 
+        type: files
+        max: 1
+        multiple: false
+        search: false

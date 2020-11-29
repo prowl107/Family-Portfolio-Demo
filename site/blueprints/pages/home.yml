@@ -1,0 +1,20 @@
+title: Home
+icon: home
+image: false
+delete: false
+
+fields:     
+  familyhistory: 
+    headline: Family History & Information
+    type: structure
+    fields:
+      section:
+        type: text
+        label: Section Name
+        size: medium
+      description:
+        type: textarea
+        label: Information & Content
+        size: medium
+
+

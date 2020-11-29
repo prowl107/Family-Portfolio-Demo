@@ -1,0 +1,40 @@
+Title: Home Page (DO NOT DELETE!)
+
+----
+
+Familyhistory:
+
+- 
+  section: Family Name
+  description: >
+    The Osborne Family Name The surname
+    Osborne is derived from the Old Norse
+    personal name Asbjorn, meaning divine
+    bear. Alternatively, the name was
+    Anglicized as Osbeorn and Osbern from
+    the Old English word "be(o)rn" which
+    meant "god warrior.” Many different
+    spellings of the name often occurred,
+    linked to a common root. They included
+    Osborne, Osborn, Osbourne, Osbourn,
+    Osburn, Osburne, Osbern and Osberne, and
+    these variations could occur frequently,
+    even between father and son. It was not
+    impossible for a person to be born with
+    one spelling, married with another, and
+    buried with yet another appearing on
+    their headstone because names were
+    spelled phonetically by different clerks
+    who often achieved different spellings
+    this way.
+- 
+  section: 'Peace In War:'
+  description: 'The motto of the Osborne family is Pax in Bello. This translates into Peace in [the midst of] War. Motto The motto was originally a war cry or slogan. Mottoes first began to be shown with arms in the 14th and 15th centuries, but were not in general use until the 17th century. Thus the oldest coats of arms generally do not include a motto. Mottoes seldom form part of the grant of arms: Under most heraldic authorities, a motto is an optional component of the coat of arms, and can be added to or changed at will; many families have chosen not to display a motto. The Latin motto for the Osborne coat of arms is Pax in Bello. This translates as Peace in War.'
+
+----
+
+Familyname: The Osborne Family Name The surname Osborne is derived from the Old Norse personal name Asbjorn, meaning divine bear. Alternatively, the name was Anglicized as Osbeorn and Osbern from the Old English word "be(o)rn" which meant "god warrior.” Many different spellings of the name often occurred, linked to a common root. They included Osborne, Osborn, Osbourne, Osbourn, Osburn, Osburne, Osbern and Osberne, and these variations could occur frequently, even between father and son. It was not impossible for a person to be born with one spelling, married with another, and buried with yet another appearing on their headstone because names were spelled phonetically by different clerks who often achieved different spellings this way.
+
+----
+
+Paxinbello: The motto of the Osborne family is Pax in Bello. This translates into Peace in [the midst of] War. Motto The motto was originally a war cry or slogan. Mottoes first began to be shown with arms in the 14th and 15th centuries, but were not in general use until the 17th century. Thus the oldest coats of arms generally do not include a motto. Mottoes seldom form part of the grant of arms: Under most heraldic authorities, a motto is an optional component of the coat of arms, and can be added to or changed at will; many families have chosen not to display a motto. The Latin motto for the Osborne coat of arms is Pax in Bello. This translates as Peace in War.

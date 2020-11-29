@@ -1,0 +1,30 @@
+title: Family Members
+icon: users
+image: false
+options: 
+  delete: false
+
+sections: 
+  members:
+    type: pages
+    headline: Family Members
+    pages: false
+    layout: cards
+    template: member
+  listed:
+    type: pages
+    headline: published
+    layout: list
+    template: member
+    status: listed
+
+  unlisted:
+    type: pages
+    headline: In Review
+    status: unlisted
+
+  drafts:
+    type: pages
+    headline: Drafts
+    layout: lists
+    status: draft

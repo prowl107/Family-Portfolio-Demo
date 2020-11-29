@@ -1,0 +1,29 @@
+title: Site
+unlisted: true
+
+sections: 
+  landing:
+    width: 1/2
+    type: pages
+    layout: cards
+    preset: pages
+    headline: Pages
+    image: 
+      ratio: 5/4
+      cover: false
+      back: black
+  # content: 
+  #   type: fields
+  #   fields:
+  #     familyname:
+  #       type: textarea
+  #       label: Osborne Family Name
+  #       size: medium
+  #     text:
+  #       type: textarea
+  #       label: Peace In War
+  #       size: medium
+        
+
+    
+

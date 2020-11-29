@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.body {
+  overflow: auto;
+}
+
+HTML h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.family-history {
+  background-color: rgb(28, 28, 28);
+  color: white;
+}
+
+.family-history-content, .family-members-content {
+  padding: 6rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  margin: 6rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .family-history-content, .family-members-content {
+    padding: 1rem;
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .family-history-content, .family-members-content {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+  }
+}
+
+.family-history-content h2 {
+  border-bottom: 2px solid white;
+  width: 100%;
+}
+
+.family-history-content p {
+  padding-top: .5rem;
+  font-size: 18px;
+  font-family: "Book Antiqua", Arial, Helvetica, sans-serif;
+  text-align: justify;
+}
+
+.family-members {
+  background-color: rgb(255, 244, 229);
+}
+
+.family-members-content h2 {
+  border-bottom: 2.5px solid black;
+  width: 100;
+}
+
+.family-members-content .names-list li {
+  font-size: 18px;
+  border: 2px solid black;
+  margin: 5px;
+  color: black;
+  padding-left: 5px;
+}
+
+.family-members-content .names-list a {
+  color: black;
+}
+
+.names-list {
+  padding-top: 1rem;
+}
+
+.family-member-effect {
+  background-color: rgb(255, 166, 0);
+  transition: all 0.35s ease;
+}
+
+.names-list li a:hover {
+  background-color: rgb(255, 166, 0);
+  transition: all 0.35s ease;
+}
+
+.hero-full-screen {
+  height: 92vh;
+  width: 100vw;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background: url("../images/FamilyCrest_resize1.jpg") center center no-repeat;
+  background-size: contain;
+  margin-bottom: 2rem;
+  margin-top: .6rem;
+}
+
+.hero-full-screen .middle-content-section {
+  text-align: center;
+  color: #fefefe;
+}
+
+.hero-full-screen .top-content-section {
+  width: 100%;
+  background-color: black;
+}
+
+.hero-full-screen .bottom-content-section {
+  padding: 1rem;
+}
+
+.hero-full-screen .bottom-content-section svg {
+  height: 3.75rem;
+  width: 3.75rem;
+  fill: #fefefe;
+  position: absolute;
+  bottom: 0px;
+}
+
+.hero-full-screen .top-bar {
+  background: transparent;
+}
+
+.hero-full-screen .top-bar .menu {
+  background: transparent;
+}
+
+.hero-full-screen .top-bar .menu-text {
+  color: #fefefe;
+}
+
+.hero-full-screen .top-bar .menu li {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero-full-screen .top-bar .menu a {
+  color: #fefefe;
+  font-weight: bold;
+}
+
+#navbar {
+  top: 0px;
+  position: sticky;
+  padding: bottom 20px;
+  z-index: 1;
+}
+
+#navbar ul {
+  width: 100vw;
+  background-color: inherit;
+}
+
+.top-bar {
+  background-color: black;
+}
+
+.top-bar li {
+  background-color: black;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky.is-anchored {
+  position: unset;
+}
+
+.sticky+.content {
+  padding-top: 60px;
+}
+
+/*Menu Bar*/
+
+.menu-hover-lines {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: all 0.35s ease;
+  color: #ffffff;
+}
+
+.menu-hover-lines li a {
+  padding: 0.75rem 0;
+  color: rgba(255, 255, 255, 0.78);
+  position: relative;
+  margin-left: 1rem;
+}
+
+.menu-hover-lines li:first-child a {
+  margin-left: 0;
+}
+
+.menu-hover-lines li.active>a {
+  background-color: transparent;
+}
+
+.menu-hover-lines a:before, .menu-hover-lines a::after {
+  height: 3px;
+  position: absolute;
+  content: "";
+  transition: all 0.35s ease;
+  background-color: #008cff;
+  width: 0;
+}
+
+.menu-hover-lines a::before {
+  top: 0;
+  left: 0;
+}
+
+.menu-hover-lines a::after {
+  bottom: 0;
+  right: 0;
+}
+
+.menu-hover-lines a:hover, .menu-hover-lines li.active>a {
+  color: rgba(255, 255, 255, 0.85);
+  transition: all 0.35s ease;
+}
+
+.menu-hover-lines a:hover::before, .menu-hover-lines .active a::before, .menu-hover-lines a:hover::after, .menu-hover-lines .active a::after {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .menu-hover-lines li a {
+    padding: 0.5rem 0;
+  }
+  .menu-hover-lines a:before, .menu-hover-lines a::after {
+    height: 2px;
+  }
+  .menu-hover-lines li {
+    padding-bottom: .5rem;
+  }
+  .menu-hover-lines li:first-child {
+    padding-left: 15px;
+  }
+}
+
+.contact-form-container {
+  /* background-color: rgb(15, 15, 15); */
+  background-image: url(https://images.pexels.com/photos/1705254/pexels-photo-1705254.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
+  background-size: cover;
+  padding-bottom: 2rem;
+}
+
+.contact-form, .contact-form label {
+  color: white;
+}
+
+.contact-form {
+  padding-top: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-form-header h3 {
+  font-family: 'Open Sans';
+}
+
+.contact-form-header {
+  max-height: 128px;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 22px;
+  background-image: url(https://images.pexels.com/photos/916017/pexels-photo-916017.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  background-size: cover;
+  /* background-color: rgb(0, 136, 255); */
+}
+
+.form-fields {
+  padding-top: 1rem;
+  background-color: #ffffff;
+}
+
+.form-fields .cell {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.form-fields input, textarea {
+  border-radius: 12px;
+}
+
+.footer {
+  background-color: rgb(15, 15, 15);
+  color: white;
+}
+
+.footer .back-to-top {
+  padding-top: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.footer .back-to-top:hover {
+  background-color: darkblue;
+  transition: all .5s ease-in-out;
+}
+
+.recipes{
+  background-color: ivory;
+  height: 100vh;
+}
+
+.recipe-container{
+  padding-top: 1rem;
+  max-width: 1200px;
+  border-bottom: 3px solid rgba(92, 89, 89, 0.78);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.recipe-title{
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.recipe-information{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.recipe-information h2 > a {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+}
+
+.recipe-information h2 > a:hover {
+  color: #000;
+}
+
+.recipe-information h2 > a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.recipe-information h2 > a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.empty-recipe{
+  font-family: 'Times New Roman', Times, serif;
+  padding-top: 2rem;
+  text-align: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}

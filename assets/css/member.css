@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    max-height: 100vh;
+    max-width: 100vw;
+}
+
+.member-container {
+    padding-top: 2rem;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 2rem;
+}
+
+.member-container h1,h2,h3,h4,h5,h6{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.member-information {
+    max-width: 1023px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.member-information ul{
+    padding-top: 1.5rem;
+}
+
+.cell {
+    border: 1.5px solid rgb(15, 15, 15);
+    max-width: 516px;
+    max-height: 325px;
+    background-color: whitesmoke;
+}
+
+@media screen and (max-width: 1027px) {
+    .cell {
+        max-width: 95vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.cell h3 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    text-decoration: underline;
+    display: inline;
+}
+
+.cell i {
+    padding-top: 1rem;
+    color: #444;
+    font-size: 3rem;
+    text-align: start;
+    margin-left: 25%;
+    margin-right: auto;
+}
+
+.cell li {
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: jstify;
+    list-style-position: inside;
+}
+
+.member-header {
+    max-width: 1023px;
+    margin-right: auto;
+    margin-left: auto;
+    background: url;
+    border: 1px solid black;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.member-header h2{
+    padding-top: 1rem;
+}
+
+.member-header img {
+    display: block;
+    max-width: 250px;
+    max-height: 250px;
+    margin: auto;
+    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+}
+
+@media screen and (max-width: 1027px) {
+    .member-header {
+        max-width: 95vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.member-media {
+    max-width: 1023px;
+    max-height: max-content;
+    margin-right: auto;
+    margin-left: auto;
+    /* background-color: whitesmoke; */
+    background: url;
+    border: 1px solid black;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.member-media i {
+    max-width: inherit;
+    margin: auto;
+    padding-bottom: 1.5rem;
+}
+
+.member-media img {
+    display: inline;
+    max-width: 400px;
+    max-height: 300px;
+    margin: auto;
+    padding-top: 1.5rem;
+}
+
+@media screen and (max-width: 1027px) {
+    .member-media {
+        max-width: 95vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+.swiper-container {
+    max-width: 600px;
+    max-height: 350px;
+}
+
+.icon-adjust{
+    position: relative;
+    bottom: -10px;
+    right: 1.5rem;
+}
+
+.title-bar{
+    background: rgb(25, 25, 25);
+}
+
+.title-bar a {
+    color: aliceblue;
+}
