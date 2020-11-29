@@ -10,9 +10,9 @@ I eventaully settled on using [KirbyCMS](https://getkirby.com/) after a little t
 Special thanks to all those behind Kirby for providing a license and making it possible to finish this project.
 
 ## Try the Demo: 
-You can view a separate installation of the site [here](https://wwww.familyportfoliodemo.com)
+You can view a separate installation of the site [here](https://www.familyportfoliodemo.com)
 
-Guest acess to the panel [here](https://wwww.familyportfoliodemo.com/panel)
+Guest acess to the panel [here](https://www.familyportfoliodemo.com/panel)
 * email: user@guest.com
 * password: guestuser
 
