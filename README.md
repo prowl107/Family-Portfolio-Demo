@@ -13,7 +13,7 @@ Special thanks to all those behind Kirby for providing a license and making it p
 You can view a separate installation of the site [here](https://www.familyportfoliodemo.com)
 
 Guest acess to the panel [here](https://www.familyportfoliodemo.com/panel)
-* email: user@guest.com
+* email: guest@user.com
 * password: guestuser
 
 ## Project Status
