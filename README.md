@@ -12,9 +12,9 @@ Special thanks to all those behind Kirby for providing a license and making it p
 ## Try the Demo: 
 You can view a separate installation of the site [here](https://wwww.familyportfoliodemo.com)
 
-Guest acess to the panel [here](https://wwww.familyportfoliodemo.com/panel)__
-    *email: user@guest.com__
-    *password: guestuser__
+Guest acess to the panel [here](https://wwww.familyportfoliodemo.com/panel)
+* email: user@guest.com
+* password: guestuser
 
 ## Project Status
 Development has stopped currently. 
